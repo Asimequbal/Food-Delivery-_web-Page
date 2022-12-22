@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bree Serif', serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+.outer_container{
+    width: 100%;
+    height: inherit;
+    border: 2px solid red;
+}
+.home_page{
+    position: relative;
+    width: 100%;
+    height: 110vh;
+    background: url(image/1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.nav_bar{
+    width: 100%;
+    height: 100px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    /* border: 2px solid rebeccapurple; */
+    background: url(image/2.png);
+    background-position: center;
+    background-size: cover;
+}
+.Login{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+}
+.Sign_Up{
+    background-color: #ff8a5a;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+}
+ul, li, a{
+    display: flex;
+    gap: 40px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    list-style-type: none;
+}
+.food_search{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    width: 50%;
+    height: 400px;
+    /* border: 2px solid yellow; */
+}
+.bold_qoute{
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 400px;
+    font-size: 5.5rem;
+}
+.light_text{
+    color: white;
+    margin-bottom: 40px;
+    font-size: 1.4rem;
+}
+/* Subscribe Button CSS  stars here*/
+
+label input{
+    width: 500px;
+    height: 70px;
+    padding-left: 15px;
+    border: none;
+    background-color: white;
+    border-radius: 50px;
+    font-size: 1.1rem;
+}
+label {
+    position: relative;
+    margin-top: 20px;
+}
+.subscribe1{
+    position: absolute;
+    font-size: 1.1rem;
+    right: 0;
+    width: 200px;
+    height: 70px;
+    border-radius: 50px;
+    border: none;
+    background: #ff8a5a;
+}
+/* Subscribe button ends here */
+.process_box{
+    width: 80%;
+    height: 250px;
+    /* border: 2px solid yellow; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -100px;
+}
+.chooselocation{
+    width: 350px;
+    height: 200px;
+    background-color: #22262f;
+    z-index: 1;
+    border-radius: 10px;
+}
+.chooselocation p{
+    color:  #D8AB37;
+    padding-left: 70px;
+    padding-top: 30px;
+}
+.chooselocation h5{
+    color:  white;
+    padding-left: 70px;
+    padding-top: 10px;
+    font-size: 1.2rem;
+}
+.chooselocation span{
+    color:  grey;
+    padding-left: 70px;
+    max-width: 80%;
+    display: block;
+}
+.order_food{
+    width: 350px;
+    height: 200px;
+    background-color: #22262f;
+    z-index: 1;
+    border-radius: 10px;
+}
+.order_food p{
+    color:  #D8AB37;
+    padding-left: 70px;
+    padding-top: 30px;
+}
+.order_food h5{
+    color:  white;
+    padding-left: 70px;
+    padding-top: 10px;
+    font-size: 1.2rem;
+}
+.order_food span{
+    color:  grey;
+    padding-left: 70px;
+    max-width: 80%;
+    display: block;
+}
+.fast_delivery{
+    width: 350px;
+    height: 200px;
+    background-color: #22262f;
+    border-radius: 10px;
+    z-index: 1;
+}
+.fast_delivery p{
+    color:  #D8AB37;
+    padding-left: 70px;
+    padding-top: 30px;
+}
+.fast_delivery h5{
+    color:  white;
+    padding-left: 70px;
+    padding-top: 10px;
+    font-size: 1.2rem;
+}
+.fast_delivery span{
+    color:  grey;
+    padding-left: 70px;
+    max-width: 80%;
+    display: block;
+}
