@@ -308,7 +308,7 @@ label {
 /* breakfast menu ends here and Lunch Starts */
 .menu_lunch{
     width: 100%;
-    height: 120vh;
+    height: 110vh;
     /* border: 2px solid yellowgreen; */
 }
 .lunch_heading{
@@ -351,6 +351,7 @@ label {
     text-align: center;
     margin-top: 10px;
     padding: 10px;
+    font-size: 1.1rem;
 }
 .rating_box1{
     margin-top: 10px;
@@ -381,6 +382,7 @@ label {
     text-align: center;
     margin-top: 10px;
     padding: 10px;
+    font-size: 1.1rem;
 }
 .third_menu1{
     width: 48%;
@@ -401,6 +403,7 @@ label {
     text-align: center;
     margin-top: 10px;
     padding: 10px;
+    font-size: 1.1rem;
 }
 .fourth_menu1{
     width: 48%;
@@ -421,24 +424,29 @@ label {
     text-align: center;
     margin-top: 10px;
     padding: 10px;
+    font-size: 1.1rem;
 }
 
 
 /*lunch ends here and dinner starts */
 .dinner_section{
     width: 100%;
-    height: auto;
-    /* border: 1px solid yellow; */
+    height: 80vh;
+    /* border: 1px solid red; */
     margin-top: 20px;
 }
 #dinner_heading{
     width: 100%;
-    height: 150px;
+    height: 100px;
     /* border: 1px solid goldenrod; */
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 3.9rem;
     font-weight: 900;
-    margin-top: 20px;
+    /* margin-top: 200px; */
+}
+.online_text{
+    text-align: center;
+    margin-bottom: 30px;
 }
 .dishes_img{
     width: 100%;
@@ -448,12 +456,19 @@ label {
     gap: 20px;
 
 }
+.deatils_foods{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+    gap: 20px;
+}
 .box{
+    padding-top: 20px;
     width: 24%;
-    height: 300px;
-    /* border: 1px solid green; */
+    height: 100px;
     border-radius: 8px;
     text-align: center;
+    /* border: 1px solid red; */
 }
 .box p{
     font-size: 1.1rem;
@@ -500,4 +515,77 @@ label {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+/* dinner section ends here & Footer starts  */
+.footer{
+    width: 100%;
+    height: 300px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #22262f;
+}
+.footer_details1{
+    width: 20%;
+    height: 300px;
+    /* border: 2px solid red; */
+}
+.footer_details1 h3{
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: white;
+    padding-top: 30px;
+}
+.footer_details1 p{
+    /* font-weight: 600; */
+    color: white;
+    font-size: 1rem;
+    line-height: 2.5rem;
+}
+.footer_details1 img{
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+}
+.footer_details2{
+    width: 20%;
+    height: 300px;
+    /* border: 2px solid red; */
+}
+.p_span span{
+    color: #d8ab37;
+    font-size: 2.5rem;
+    font-weight: 400;
+    padding-top: 40px;
+}
+.p_span{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 40px;
+}
+.p_noSpan{
+    color: white;
+    font-size: 0.8rem;
+    line-height: 2.5rem;
+    font-weight: lighter;
+
+}
+.footer_details3{
+    width: 20%;
+    height: 300px;
+    /* border: 2px solid red; */
+}
+.footer_details3 p{
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+}
+.footer_details3 img{
+    width: 86%;
+    height: 39px;
+    margin-left: 25px;
+    margin-top: 20px;
 }
