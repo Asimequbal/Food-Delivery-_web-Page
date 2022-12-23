@@ -191,7 +191,6 @@ label {
 .menu_breakfast{
     width: 100%;
     height: 100vh;
-    clear: both;
     /* border: 2px solid yellowgreen; */
 }
 .breakfast_heading{
@@ -651,12 +650,6 @@ label {
         align-items: center;
         gap: 20px;
     }
-    .menu_breakfast{
-        clear: both;
-    }
-    .menu_lunch{
-        clear: both;
-    }
     .breakfast_heading{
         width: 100%;
     }
@@ -690,6 +683,75 @@ label {
     }
     .dinner_section{
         width: 100%;
-        clear: both;
+        
     }
+    .outer_container{
+        position: relative;
+    }
+    .menu_lunch{
+        position: absolute;
+        top: 135%;
+    }
+    .lunch_heading{
+        width: 100%;
+    }
+    #lunch01{
+        font-weight: 200px;
+        font-size: 1.5rem; 
+    }
+    .lunch_heading p{
+        font-size: .9rem;
+    }
+    .menu_pic1{
+        margin: 0 auto;
+        width: 70%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .frist_menu1{
+        width: 100%;
+    }
+    .second_menu1{
+        width: 100%;
+    }
+    .third_menu1{
+        width: 100%;
+    }
+    .fourth_menu1{
+        width: 100%;
+    }
+    .dinner_section{
+        width: 100%;
+        height: inherit;
+    }
+    #dinner_heading{
+        font-weight: 200px;
+        font-size: 1.5rem; 
+    }
+    .online_text{
+        font-size: .9rem;
+        margin-top: -61px;
+    } 
+    .dishes_img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .box1{
+        width: 80%;
+    }
+    .box2{
+        width: 80%;
+    }
+    .box3{
+        width: 80%;
+    }
+    .box4{
+        width: 80%;
+    }
+    
 }
