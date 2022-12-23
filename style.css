@@ -30,12 +30,12 @@ html{
     justify-content: space-around;
     align-items: center;
 }
-.logo{
+.logo img{
     width: 70px;
     height: 70px;
     border-radius: 50%;
     /* border: 2px solid rebeccapurple; */
-    background: url(image/2.png);
+    /* background: url(image/2.png); */
     background-position: center;
     background-size: cover;
 }
@@ -190,7 +190,8 @@ label {
 /* menu and the restraunt details */
 .menu_breakfast{
     width: 100%;
-    height: 120vh;
+    height: 100vh;
+    clear: both;
     /* border: 2px solid yellowgreen; */
 }
 .breakfast_heading{
@@ -308,7 +309,7 @@ label {
 /* breakfast menu ends here and Lunch Starts */
 .menu_lunch{
     width: 100%;
-    height: 110vh;
+    height: 100vh;
     /* border: 2px solid yellowgreen; */
 }
 .lunch_heading{
@@ -588,4 +589,107 @@ label {
     height: 39px;
     margin-left: 25px;
     margin-top: 20px;
+}
+
+
+@media screen and (min-width : 320px) and (max-width : 500px) {
+    .sign_up{
+        display: none;
+    }
+    .nav_bar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo{
+        width: 100%;
+        height: 100px; 
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    ul {
+        margin-top: 20px;
+    }
+    .bold_qoute{
+        font-weight: 200px;
+        font-size: 1.5rem;
+    }
+    .light_text{
+        font-size: .9rem;
+
+    }
+    label input{
+        width: 300px;
+        height: 40px;
+        padding-left: 20px;
+        border: none;
+        background-color: white;
+        font-size: .8rem;
+    }
+    label {
+        position: relative;
+        margin-top: 20px;
+    }
+    .subscribe1{
+        position: absolute;
+        font-size: .8rem;
+        right: 0;
+        bottom: -10px;
+        width: 100px;
+        height: 40px;   
+    }
+    .process_box{
+        width: 100%;
+        height: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .menu_breakfast{
+        clear: both;
+    }
+    .menu_lunch{
+        clear: both;
+    }
+    .breakfast_heading{
+        width: 100%;
+    }
+    #break1{
+        font-weight: 200px;
+        font-size: 1.5rem; 
+    }
+    .breakfast_heading p{
+        font-size: .9rem;
+    }
+    .menu_pic{
+        margin: 0 auto;
+        width: 70%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .frist_menu{
+        width: 100%;
+    }
+    .second_menu{
+        width: 100%;
+    }
+    .third_menu{
+        width: 100%;
+    }
+    .fourth_menu{
+        width: 100%;
+    }
+    .dinner_section{
+        width: 100%;
+        clear: both;
+    }
 }
